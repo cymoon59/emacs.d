@@ -8,6 +8,11 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+(set-language-environment "Korean")
+(prefer-coding-system 'utf-8)
+
+(global-set-key (kbd "<S-kana>") 'toggle-input-method)
+
 (load "~/.emacs.d/modules/python.el")
 (load "~/.emacs.d/modules/markdown.el")
 
