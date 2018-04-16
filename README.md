@@ -30,4 +30,9 @@
   https://jblevins.org/projects/markdown-mode/
 
 
-
+## Install ## 
+```
+git init .
+git remote add -t \* -f origin <repository-url>
+git checkout master
+```
